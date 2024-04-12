@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.imagem {
+    max-width: 70px;
+    max-height: 70px;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-family:"Kode Mono", monospace;
+}
+
+.principal {
+    width: 90%;
+    text-align: center;
+    font-family:"Kode Mono", monospace;
+    padding: 25px;
+}
+
+.rodape {
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.imagem_principal {
+    padding: 10px;
+}
